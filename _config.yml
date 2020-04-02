@@ -1,1 +1,40 @@
-theme: jekyll-theme-cayman
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
+
+title: SHIGOPHILO
+name: ShiGoPhilo
+description: 文能提笔控萝莉 武能床上定人妻
+
+github: https://github.com/shigophilo
+email: mailto:shigophilo@gmail.com
+rss: true
+
+plugins:
+  - rouge
+  - kramdown
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+
+exclude:
+  - script
+  - docs
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+theme: jekyll-theme-minimalism
+remote_theme: showzeng/Minimalism
+
